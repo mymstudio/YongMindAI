@@ -1,0 +1,313 @@
+@font-face {
+    font-family: "Dingding JINBUTI";
+    src: url("./DingTalk\ JinBuTi.ttf");
+} 
+@font-face {
+    font-family: "HarmonyOSSansSC_Medium";
+    src: url("./HarmonyOS_Sans_SC_Medium.ttf");
+}  
+
+html body {
+    background: linear-gradient(90deg,#46c286 0%,rgb(57, 148, 98) 100%); 
+    display: flex;
+    flex-direction: row;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+}
+.bk {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 97vh;
+    border-radius: 16px;
+    margin: 0px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.cl {
+    width: 80px;
+    height: 96vh;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0);
+    margin: 4px 4px 0px 0px;
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+}
+.bt_h {
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+    margin-bottom: 24px;
+}
+.bt_h:hover {
+    cursor: pointer;
+}
+.bt {
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 0.712);
+    fill: rgba(255, 255, 255, 0.712);
+}
+.bt:hover {
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.bti:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+    padding: 8px;
+    border-radius: 12px;
+    fill: rgb(141, 109, 44);
+
+}
+
+.bt_hi {
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 8px;
+    border-radius: 12px;
+}
+.bti {
+    background: none;
+    padding: 4px;
+    border-radius: 12px;
+}
+.bkdb {
+    display: flex;
+    flex-direction: row;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+}
+.button_xz {
+    border: 0px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    margin: 24px 16px 24px 24px;
+    background-color: #46c286;
+    color: white;
+}
+.AIN {
+    margin: 0px 0px 2px 0px;
+    padding: 6px 8px 6px 8px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0);
+}
+.AIN:hover {
+    margin: 0px 0px 2px 0px;
+    font-weight: 600;
+    background-color: #eff2f7;
+    padding: 6px 8px 6px 8px;
+    border-radius: 6px;
+}
+.jies {
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+    margin: 64px;
+    width: auto;
+    height: 60%;
+    
+}
+.card2 {
+    width: 180px;
+    background-color: white;
+    height: 240px;
+    margin-top: 24px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: start;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+    animation: xt_f 0.5s;
+    animation-fill-mode: forwards;
+}
+.card2:hover {
+    animation: xt 0.5s;
+    animation-fill-mode: forwards;
+}
+.card {
+    width: 180px;
+    background-color: white;
+    height: 240px;
+    margin-left: 0px;
+    margin-top: 24px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: start;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+    
+}
+@keyframes xt {
+    0% {
+        -webkit-box-shadow: 0px 10px 34px 4px rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.0);
+        box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.0)
+    }
+    100% {
+        -webkit-box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.11);
+        -moz-box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.11);
+        box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.11)       
+    }
+}
+@keyframes xt_f {
+    0% {
+        -webkit-box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.11);
+        -moz-box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.11);
+        box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.11)     
+    }
+    100% {
+        -webkit-box-shadow: 0px 10px 34px 4px rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.0);
+        box-shadow: 0px 10px 34px 4px rgba(0,0,0,0.0) 
+    }
+}
+.jbt {
+    font-family: Dingding JINBUTI;
+}
+.hmt {
+    font-family: HarmonyOSSansSC_Medium;
+}
+.an {
+   animation: top 1.6s;
+   animation-fill-mode: forwards;
+}
+@keyframes top {
+    0% {
+        transform: translateY(72%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;       
+    }
+}
+@keyframes jx {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;       
+    }
+}
+.minput {
+    width: 88%;
+    border: none;
+    height: 48px;
+    border-radius: 500px;
+    padding-left: 24px;
+    -webkit-box-shadow:0px 10px 34px -4px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 10px 34px -4px rgba(0,0,0,0.11);
+    box-shadow: 0px 10px 34px -4px rgba(0,0,0,0.11);
+    outline: none;
+}
+.jx {
+    animation: jx 1s
+}
+.message
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 5px 0;
+}
+.message p
+{
+    position: relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 12px;
+    background: #46c286;
+    border-radius: 10px;
+    font-size: 0.9em;
+    color: white;
+}
+.message p::before
+{
+    background: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+
+}
+.message p span
+{
+    display: block;
+    margin-top: 5px;
+    font-size: 0.85em;
+    opacity: 0.5;
+}
+.my_message
+{
+    justify-content: flex-end;
+}
+.frnd_message
+{
+    justify-content: flex-start;
+}
+.frnd_message p
+{
+    background: #ffffff;
+    text-align: left;
+    color: black;
+}
+.message.frnd_message p::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 20px;
+    height: 20px;
+    background: none;
+}
+
+.chatBox {
+    width: 96%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    justify-content: start;
+    overflow: auto;
+    align-items: space-between;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+
+}
+::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+}
+.zntcl {
+    height: 97vh;
+    border-radius: 12px 0px  0px 12px;
+    width: 240px;
+    background-color: white;
+    animation: zntcl 0.75s;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: column;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+}
+@keyframes zntcl {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;     
+    }
+}
+.zntbk {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 97vh;
+    border-radius: 16px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;   /*设置主轴方向是水平方向*/
+    align-items: center;  /*设置侧轴上，子元素的排列方式为居中对齐*/
+}
